@@ -1,10 +1,10 @@
-# AdsPlusYou
-AdsPlusYou is a system to manage the publication of classified ads on specific sites which allows the management of publications and constant updating with the aim of enhancing the ability to reach more people with your product and service offers
+# GLPIWatcher
+GLPIWatcher is a system to manage opened tickets on GLPI system. It monitors opened tickets and put it on waiting to save working time on statistics of your working performance. It does not uses Rest API or XMLRPC, it just works scraping and interacting directly with the web site, it has been implemented thinking on a GLPI system that not have API enabled
 
 Installation
 
-1. Download develop branch as .zip or make a git clone
-2. Open command prompt and go to the AdsPlusYou-develop folder
+1. Download main branch as .zip or make a git clone
+2. Open command prompt and go to the GLPIWatcher-main folder
 3. Create a Virtual environment
 
 For Python version <= 3
