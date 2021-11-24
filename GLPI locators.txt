@@ -1,0 +1,36 @@
+GLPI
+
+login: //*[@id="login_name"] - /html/body/div[1]/div[3]/form/p[1]/input
+pass: //*[@id="login_password"] - /html/body/div[1]/div[3]/form/p[2]/input
+auth button: //*[@id="boxlogin"]/form/p[4]/input - /html/body/div[1]/div[3]/form/p[4]/input
+
+logout //*[@id="deconnexion"]/a  -  /html/body/div[1]/div[1]/div[2]/ul/li[1]/a
+logout url  http://informacionti.etecsa.cu/front/logout.php?noAUTO=1
+
+tickets (http://informacionti.etecsa.cu/front/ticket.php): //*[@id="menu2"]/a
+
+criterio de busqueda: //*[@id="select2-dropdown_criteria_0__field_1130207229-container"]
+seleccionar o escribir: Estado
+
+es: //*[@id="select2-dropdown_criteria_0__searchtype_1481078949-container"]
+
+estado: //*[@id="select2-dropdown_criteria_0__value_98844551-container"]
+
+en curso (asignada): //*[@id="select2-dropdown_criteria_0__value_98844551-container"]
+
+btn buscar en filtro: //*[@id="searchcriteria"]/div/input
+
+saber la cantidad de records de la tabla (text de ejemplo: Desde 1 hasta 20 de 91): //*[@id="page"]/div/div[1]/table/tbody/tr/td[4]
+
+id del ticket1 : //*[@id="massformTicket"]/div/table/tbody/tr[1]/td[2]
+id del ticket2 : //*[@id="massformTicket"]/div/table/tbody/tr[2]/td[2]
+
+primer ticket de la lista: //*[@id="massformTicket"]/div/table/tbody/tr[1]/td[3]
+
+lista de estado: //*[@id="mainformtable2"]/tbody/tr[2]/td[1]/span
+
+1. en curso
+2. en espera
+4. resuelto
+
+Btn Guardar edicion de ticket: //*[@id="tabsbody"]/div[2]/input[1]

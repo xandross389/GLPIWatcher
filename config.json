@@ -1,0 +1,13 @@
+{
+    "allow_opened_tickets_begin_time": "08:00",
+    "allow_opened_tickets_end_time": "00:30",
+    "chrome_executable_path": "./chromedriver/chromedriver.exe",
+    "close_tickets_retry_times": 5,
+    "headless_browsing": false,
+    "login_page": "https://demo.glpi-project.org/",
+    "monitor_enable": true,
+    "page_loading_timeout": 60,
+    "password": "normal",
+    "tickets_page": "https://informacionti.etecsa.cu/ticket.php",
+    "username": "normal"
+}
